@@ -16,3 +16,10 @@ docker-compose up -d
 docker-compose up -d --build
 ```
 
+
+### Requests
+Each request should have a token in headers.
+```
+Name -- Authorization
+Values example -- Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjUxMTQyMzQ2LCJpYXQiOjE2NTExNDIwNDYsImp0aSI6IjlmYzBlNzYwZDY2MzQ0ODVhNWY5ODRlNWUwNmExYTMzIiwidXNlcl9pZCI6MX0.5XPTxa1NXX8lfAKEi7mdLgoMBB1pf0EiB0MNZvhbus0
+```
